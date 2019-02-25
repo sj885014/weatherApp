@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Weather App! </title>
+</head>
+<body>
+
+    <div id="background">
+
+        <div id="box1">
+           <p> Columbus Ohio Weather Forecast</p>
+        </div> 
+
+        <div id="box2">
+            
+            <div class="row">
+              <div class="column"> 
+                
+                  <p><b><u> TODAY </u></b> </p> 
+                <p> Temperature:</p> 
+                <p> {{ temp }} </p>
+
+              </div>
+              <div class="column"> 
+              
+                <p> Min Temperature: {{temp_min}} </p>
+
+                <p> Max Temperature: {{temp_max}} </p>
+
+
+              </div>
+              <div class="column"> <img src="https://img.icons8.com/ios/50/000000/partly-cloudy-day.png"> </div>
+            </div>
+            
+          </div> 
+
+        <div id="box3">
+
+            <div class="row">
+                <div class="column"> 
+                  
+                  <p><b><u> TOMORROW </u></b> </p> 
+                  <p> Temperature:</p> 
+                  <p> {{ tom_temp }} </p>
+  
+                </div>
+                <div class="column"> 
+                
+                  <p> Min Temperature: {{tom_temp_min}} </p>
+  
+                  <p> Max Temperature: {{tom_temp_max}} </p>
+  
+  
+                </div>
+                <div class="column"> <img src="https://img.icons8.com/ios/50/000000/partly-cloudy-day.png"> </div>
+              </div>
+        </div>  
+    </div>
+
+</body>
+</html>
